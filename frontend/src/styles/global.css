@@ -1,0 +1,45 @@
+.primary-blue {
+    background-color: #4D86FC !important;
+}
+
+.active-blue-text {
+    color: #2878FF !important;
+}
+
+.pale-blue-surface {
+    background-color: #EDF2FD !important;
+}
+
+body {
+    background-color: #F1F3F8 !important;
+    padding: 40px;
+    box-sizing: border-box !important;
+}
+
+.main-text {
+    color: #111827 !important;
+}
+
+.secondary-text {
+    color: #64748B !important;
+}
+
+.border-color {
+    border-color: #E5EAF2 !important;
+}
+
+.white-surface {
+    background-color: #FFFFFF !important;
+}
+
+.delete-pale-red {
+    background-color: #FDEEF0 !important;
+}
+
+.delete-red {
+    color: #EF4444 !important;
+}
+
+* {
+    font-family: 'Inter';
+}
