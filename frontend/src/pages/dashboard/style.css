@@ -1,0 +1,14 @@
+h1 {
+    font-size: 52px !important;
+    font-weight: 600 !important;
+}
+
+h2 {
+    font-weight: 600 !important;
+}
+
+form div {
+    border-radius: 18px !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

@@ -10,9 +10,13 @@
     background-color: #EDF2FD !important;
 }
 
+.secondary-background {
+    background-color: #F1F3F8 !important
+}
+
 body {
     background-color: #F1F3F8 !important;
-    padding: 40px;
+    padding: 20px;
     box-sizing: border-box !important;
 }
 
@@ -42,4 +46,24 @@ body {
 
 * {
     font-family: 'Inter';
+}
+
+.half-grid {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+}
+main {
+    border-radius: 20px !important;
+}
+
+@media (max-width: 700px) {
+    .half-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    body {
+        padding: 10px !important;
+    }
 }

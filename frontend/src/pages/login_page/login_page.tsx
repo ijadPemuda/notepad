@@ -3,7 +3,7 @@ import '../../styles/global.css'
 
 function LoginPage() {
     return (
-        <main className='half-grid white-surface container-fluid min-vh-100 rounded shadow-sm border-color'>
+        <main className='half-grid white-surface container-fluid min-vh-100 shadow-sm border-color'>
 
             <div className='d-flex justify-content-center align-items-center white-surface'>
                 <div className='d-flex flex-column'>
