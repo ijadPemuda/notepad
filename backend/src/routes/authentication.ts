@@ -1,5 +1,11 @@
 import express from "express";
-const router = express.Router();
 
+import LoginVerify from "../middleware/login.js";
 
-router.post('/authentication/signin', )
+const signInRoute = express.Router()
+const logInRoute = express.Router()
+
+signInRoute.get('/authentication/signin',)
+logInRoute.get('/authentication/login',LoginVerify)
+
+export { signInRoute, logInRoute }

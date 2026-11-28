@@ -13,9 +13,13 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, '../../frontend/dist')))
 
 
+import authenticationLimiter from "../src/middleware/authenticationLimiter.js"
+import { signInRoute, logInRoute } from './routes/authentication.js'
 
 
 
+app.use('/api', authenticationLimiter, signInRoute)
+app.use('/login', authenticationLimiter, logInRoute)
 
 
 app.use((req, res) => {
